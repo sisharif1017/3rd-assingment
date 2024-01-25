@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
     <title>3rd assingment</title>
+    <link rel="stylesheet" href="tailwind.config.js">
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -96,35 +97,50 @@
     <main>
       <!-- hockey club section -->
 
-      <section >
-        <div class="text-center">
-          <h2 class="text-2xl p-4">Professional Hockeys Club</h2> 
-       <p>Hockey is an outdoor game <br>
-         played between two teams of 11 players who use long curved <br> sticks to hit a small ball and try to score goals. </p>
+      <section class="container mx-auto mt-16 lg:mt-32">
+        <div class="text-center space-y-4 lg:space-y-6">
+            <h1 class="text-[#131318] text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
+            <p class="text-[#13131899] font-medium lg:w-[600px] lg:mx-auto mx-3">a game played on a sports field between two teams of eleven players who each have a curved stick with which they try to put a small, hard ball into the other.</p>
         </div>
-        
-       
-      </section>
-
-      <div class=" text-center grid-cols-4  gap-6">
-        <div>
-          <div class="radial-progress text-[#4C8DF1] rotate-180 " style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-180">87%</span></div>
-          <h2 class="text-2xl">Prayer Facility</h2>
-          <p class="p-2">Amet consectetur. <br>Condimentum dignissim adipiscing .</p>
+        <div class="grid grid-cols-1 lg:grid-cols-4 mt-10">
+            <div class="text-center mt-12">
+                <div>
+                    <div class="radial-progress text-[#FF4240] rotate-90" style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-90">87%</span></div>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-semibold text-[#131318] mb-3 mt-5">Prayer Facility</h1>
+                    <p class="text-[#13131899] mx-3">a game played on a sports field between two teams of eleven players who each have a curved stick with which they try to put a small, hard ball into the other</p>
+                    </div>
+                   </div>
+                   <div class="text-center mt-12">
+                    <div>
+                        <div class="radial-progress text-[#49D293] rotate-90" style="--value:95; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-90">95%</span></div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-semibold text-[#131318] mb-3 mt-5">Experienced Coach</h1>
+                        <p class="text-[#13131899] mx-3">a game played on a sports field between two teams of eleven players who each have a curved stick with which they try to put a small, hard ball into the other.</p>
+                        </div>
+                       </div>
+                       <div class="text-center mt-12">
+                        <div>
+                            <div class="radial-progress text-[#FFB546] rotate-90" style="--value:90; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-90">90%</span></div>
+                            </div>
+                            <div>
+                                <h1 class="text-xl font-semibold text-[#131318] mb-3 mt-5">Senior Player</h1>
+                            <p class="text-[#13131899] mx-3">a game played on a sports field between two teams of eleven players who each have a curved stick with which they try to put a small, hard ball into the other. </p>
+                            </div>
+                           </div>
+               <div class="text-center mt-12">
+                <div>
+                    <div class="radial-progress text-[#4C8DF1] rotate-90 " style="--value:80; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-90">80%</span></div>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-semibold text-[#131318] mb-3 mt-5">Training Ground</h1>
+                    <p class="text-[#13131899] mx-3">Ta game played on a sports field between two teams of eleven players who each have a curved stick with which they try to put a small, hard ball into the other</p>
+                    </div>
+                   </div>
+               </div>
         </div>
-        <div class="radial-progress text-[#4C8DF1] rotate-180 " style="--value:95; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-180">95%</span></div>
-        <h2 class="text-2xl">Experienced Coach</h2>
-        <p class="p-2">Amet consectetur. <br>Condimentum dignissim adipiscing .</p>
-        <div class="radial-progress text-[#4C8DF1] rotate-180 " style="--value:90; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-180">90%</span></div>
-        <h2 class="text-2xl">Senior Player</h2>
-        <p class="p-2">Amet consectetur <br>
-           Condimentum dignissim adipiscing .</p>
-        <div class="radial-progress text-[#4C8DF1] rotate-180 " style="--value:80; --size:10rem; --thickness: 1rem;" role="progressbar"><span class="text-black text-4xl font-extrabold -rotate-180">80%</span></div>
-        <h2 class="text-2xl">Training Ground</h2>
-        <p class="p-2">Amet consectetur. <br>Condimentum dignissim adipiscing .</p>
-
-      </div>
-
       <!-- program section -->
 
       <div class="text-center mt-3">
@@ -134,32 +150,133 @@
            aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
       </div> 
 
-      <div class="grid grid-cols-2 w-auto h-96 rounded-2xl">
+      <div class="grid grid-cols-2">
 
-        <div class="hero " style="background-image: url(Images/2.png);">
+        <div class="hero  w-auto h-96 rounded-2xl " style="background-image: url(Images/2.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-              <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <button class="btn btn-primary">Get Started</button>
+              <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+              <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in..</p>
+              <button class="btn btn-error">Register Now!</button>
             </div>
           </div>
         </div>
-        <div class="hero " style="background-image: url(Images/3.png);">
+        <div class="hero  w-auto h-96 rounded-2xl" style="background-image: url(Images/3.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-              <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-              <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-              <button class="btn btn-primary">Get Started</button>
+              <h1 class="mb-5 -p-10 text-5xl font-bold">Teenager Program</h1>
+              <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in..</p>
+              <button class="btn btn-error">Register Now!</button>
             </div>
           </div>
         </div>
+
+
 
 
       </div>
 
+      <div class="pt-3 ">
+        <div class="hero max-w-6xl h-96 rounded-2xl" style="background-image: url(Images/4.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+              <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in...</p>
+              <button class="btn btn-error">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- product section -->
+
+      <section class="grid grid-cols-2 mt-3">
+
+        <div class="text-center">
+          <h1 class="text-4xl">Our New Products</h1>
+        <p class="text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+          enim sagittis turpis in magna. <br>Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in..</p>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-2">
+        
+
+          <div class="rounded-2xl bg-base-200">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="w-auto h-92 rounded-xl">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/6.png" class="shadow-2xl" />
+              <div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="hero bg-base-200">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                
+              </div>
+            </div>
+          </div> 
+          <div class="hero bg-base-200">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                
+              </div>
+            </div>
+          </div>
+        
+          <div class="hero bg-base-200">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="hero bg-base-200 ">
+            <div class="hero-content rounded-2xl border-10 flex-col lg:flex-row">
+              <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6 leading-6 text-base">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                
+              </div>
+            </div>
+          </div>
+        
+
+      </section>
+
+      <!-- client section -->
+      
 
 
     </main>
